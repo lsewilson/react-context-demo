@@ -29,7 +29,7 @@ class NavBar extends Component {
 				</TouchableOpacity>
 				<TouchableOpacity onPress={()=> {}}>
 					<View style={styles.textContainer}>
-						<Text style={[styles.header, this.props.theme.darkMode && {color: colors.white}]}>Oscar 🐶</Text>
+						<Text style={[styles.header, this.props.theme.darkMode && {color: colors.white}]}>Doggo 🐶</Text>
 						<Text style={styles.subtitle}>@doggo</Text>
 					</View>
 				</TouchableOpacity>

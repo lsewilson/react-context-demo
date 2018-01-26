@@ -5,7 +5,7 @@ module.exports = [
     createdAt: new Date(Date.UTC(2018, 1, 15, 7, 26, 0)),
     user: {
       _id: 2,
-      name: 'Oscar Wilson',
+      name: 'Dog',
     },
   },
   {
@@ -26,7 +26,7 @@ module.exports = [
     createdAt: new Date(Date.UTC(2018, 1, 15, 7, 24, 0)),
     user: {
       _id: 2,
-      name: 'Oscar Wilson',
+      name: 'Dog',
     },
   },
 
@@ -48,7 +48,7 @@ module.exports = [
     createdAt: new Date(Date.UTC(2018, 1, 15, 7, 22, 0)),
     user: {
       _id: 2,
-      name: 'Oscar Wilson',
+      name: 'Dog',
     },
   },
   {
@@ -68,7 +68,7 @@ module.exports = [
     createdAt: new Date(Date.UTC(2018, 1, 15, 7, 20, 0)),
     user: {
       _id: 2,
-      name: 'Oscar Wilson',
+      name: 'Dog',
     },
   },
 ];

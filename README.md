@@ -1,23 +1,22 @@
+# React Context Demo
+
+This is a small React Native project that I used to demonstrate building your own ThemeProvider and withTheme HoC using the React Context API. 
+
 ## Run the example
 
 ```
-git clone https://github.com/FaridSafi/react-native-gifted-chat
-cd react-native-gifted-chat/example
-npm install
+git clone https://github.com/lsewilson/react-context-demo.git
+cd react-context-demo
+yarn
 react-native run-ios
 ```
 
-## Development helper
+The code for this was originally taken from the [example](https://github.com/FaridSafi/react-native-gifted-chat/tree/master/example) for the Gifted Chat library. 
+## Screenshots 
 
-Normally, after a code change to react-native-gifted-chat src files, you must remove the node_modules/react-native-gifted-chat directory and npm install. The react-native packager wont follow symlinks.
+The mode can be toggled on/off by pressing the moon icon in the top right corner. 
 
-To assist development, this command watches and rsyncs changes:
+![night-mode-off](./screenshots/NightModeOff.png)
 
-```
-npm run sync
-```
+![night-mode-on](./screenshots/NightModeOn.png)
 
-Leave a terminal open running this command when running the Example app and making react-native-gifted-chat src changes.
-
-
-Development helper inspired by [@joenoon's commit](https://github.com/aksonov/react-native-router-flux/commit/ba85007a36b1d317e9114b9cd46086f4aba9d142)
